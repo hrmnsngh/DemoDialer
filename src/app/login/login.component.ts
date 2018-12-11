@@ -33,6 +33,8 @@ export class LoginComponent implements OnInit {
     this.router.navigate(['/dashboard']);
   }
 
+
+
   loginResult() {
     // console.log(this.loginService.getUser());
     // this.loginService.getUser().subscribe(data => {
