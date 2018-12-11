@@ -9,7 +9,12 @@ export class DashboardComponent implements OnInit {
 
   constructor() { }
 
+  currentTime;
   ngOnInit() {
+    // this.loginResult();
+    setInterval(()=>{
+      this.currentTime = new Date();
+    },1000);
   }
 
 }
